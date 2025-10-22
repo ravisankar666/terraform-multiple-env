@@ -4,11 +4,7 @@ variable "project" {
 }
 
 variable "environment" {
-    type = map
-    default = {
-        dev = "dev"
-        prod = "prod"
-    }
+    type = string
   
 }
 variable "ami_id" {
